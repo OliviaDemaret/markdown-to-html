@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    hsla(197, 100%, 63%, 1) 0%,
+    hsla(294, 100%, 55%, 1) 100%
+  );
+  justify-content: center;
+
+  text-align: center;
+  color: black;
+}
+
+img {
+  border-radius: 15px;
+}
+#transparentback {
+  width: 70%;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: white;
+  opacity: 0.5;
+}
+
+h1 {
+  color: #bb3cf0;
+}
+h2 {
+  color: #bb3cf0;
+}
+.pi {
+  font-style: italic;
+}
+
+p {
+  margin: 20px;
+}
+
+table {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+
+ol {
+  text-align: center;
+}
+ul {
+  list-style: circle;
+}
+
+#diva {
+  background-color: white;
+}
+
+a {
+  color: blue;
+}
+
+#divboutons {
+  display: flex;
+  justify-content: space-around;
+}
