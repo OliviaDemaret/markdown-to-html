@@ -12,6 +12,8 @@ body {
 }
 
 img {
+  opacity: 1;
+  margin: 15px;
   border-radius: 15px;
 }
 #transparentback {
@@ -22,10 +24,9 @@ img {
   opacity: 0.5;
 }
 
-h1 {
-  color: #bb3cf0;
-}
-h2 {
+h1,
+h2,
+h3 {
   color: #bb3cf0;
 }
 .pi {
@@ -60,5 +61,9 @@ a {
 
 #divboutons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+#previous {
+  transform: rotate(180deg);
 }
