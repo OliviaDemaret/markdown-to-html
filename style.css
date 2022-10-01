@@ -23,8 +23,7 @@ img {
   width: 70%;
   border-radius: 15px;
   justify-content: center;
-  background-color: white;
-  opacity: 0.5;
+  background-color: HSLA(100, 100%, 100%, 0.5);
 }
 
 h1,
@@ -45,7 +44,6 @@ table {
   margin: auto;
   justify-content: center;
   text-align: center;
-  background-color: white;
 }
 
 ol {
