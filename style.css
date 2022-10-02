@@ -15,6 +15,7 @@ body {
 }
 
 img {
+  width: auto;
   opacity: 1;
   margin: 15px;
   border-radius: 15px;
@@ -55,9 +56,17 @@ table {
   text-align: center;
 }
 
+#divhb,
+#h2h,
 ol {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+  text-align: left;
 }
+
 ul {
   list-style: circle;
 }
@@ -77,4 +86,22 @@ a {
 
 #previous {
   transform: rotate(180deg);
+}
+@media screen and (max-width: 768px) {
+  img {
+    width: 70%;
+  }
+  table,
+  td,
+  th {
+    width: 70%;
+    height: 70%;
+    border-style: solid;
+    border-color: #bb3cf0;
+  }
+  li {
+    text-align: left;
+    width: 70%;
+    height: 70%;
+  }
 }
